@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-3 p-5">
-            <img src="https://cdn.changelog.com/uploads/icons/news_sources/Qo/icon_large.png?v=63680075631" class="rounded-circle" style="height: 125px;">
+            <img src="https://hips.hearstapps.com/countryliving.cdnds.net/17/47/1511194376-cavachon-puppy-christmas.jpg" class="rounded-circle" style="height: 170px; width: 175px">
         </div>
         <div class="col-9 pt-5">
             <div class="d-flex justify-content-between align-items-baseline">
@@ -12,7 +12,7 @@
                 <a href="/p/create">Add New Post</a>
             </div>
             <div class="d-flex">
-                <div class="pr-5"><strong>318</strong> posts</div>
+                <div class="pr-5"><strong>{{$user->posts->count()}}</strong> posts</div>
                 <div class="pr-5"><strong>54.8k</strong> followers</div>
                 <div class="pr-5"><strong>281</strong> following</div>
             </div>
